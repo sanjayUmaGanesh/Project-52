@@ -1,0 +1,92 @@
+h1{
+    background-color: grey;
+    color: gold;
+    margin-right: 10px;
+    padding-left: 30px ;
+}
+body{
+    background-color: #fcd9c2f1;
+}
+.heading{
+    padding-right: 300px;
+}
+.intro1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gold;
+    
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gold;
+}
+.intro3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.first{
+    background-color : white;
+    border: black;
+}
+.second{
+    background-color : white;
+    border: black;
+}
+
+.outro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gold;
+}
+.outro a:link{
+   color: gold;
+}
+.outro a:active{
+    color:gold
+}
+.outra a:visited{
+    color:gold
+}
+.outro a:hover{
+    color:grey
+}
+
+.first p{
+    opacity: 0;
+}
+.second p {
+    opacity: 0;
+}
+.first:hover img{
+    opacity: 0.3;
+   
+}
+.second:hover img{
+    opacity:0.3
+}
+.first:hover p{
+    opacity: 1;
+}
+.second:hover p{
+    opacity: 0.3;
+}
+.second:hover p{
+    opacity: 1;
+}
+.first a:link{
+    background-color:gold
+}
+.second a:link{
+    background-color: gold;
+}
